@@ -1,0 +1,161 @@
+::placeholder{
+    color: black;
+    font-size: medium;
+}
+
+input[type="text"]:focus {
+    color: black;
+  }
+
+input[type="password"]:focus {
+    color: black;
+  }
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:0px;
+    /* width: 100vh; */
+    /* height: 30vh; */
+    /* margin: auto; */
+    /* margin-top: 10vh; */
+    /* border: 1px solid black; */
+    width: 100%;
+    /* padding: 5px; */
+    /* border-radius: 5px; */
+}
+
+.left-part, .right-part{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+}
+
+.left-part{
+    width: 30%;
+    /* padding: 5px; */
+}
+
+.right-part{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 15px;
+    border-left: 1px solid black;
+}
+
+.email-input-container{
+    width: 100%;
+    position: relative;
+    background-color: #EEEEEE;
+
+}
+
+.email-input-container > input{
+    /* position: absolute; */
+    /* top: 20px; */
+    /* margin-left: 50px; */
+    width: 50vh;
+    border: none;
+    background-color: #EEEEEE;
+    color: black;
+    height: 4vh;
+}
+
+/* .email-input-container > input ::placeholder{
+    color: white;
+} */
+
+.email-input ::placeholder{
+color: white;
+}
+
+.email-icon{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.password-icon{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.hide-icon{
+    position: absolute;
+    top: 3px;
+}
+
+.right-part > input, button{
+    height: 4vh;
+}
+
+.right-part > button{
+    background-color: #00AC43;
+    border: 1px solid #00AC43;
+    color: white;
+    font-size: medium;
+} 
+
+.left-part > div{
+    height: 10vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+
+/* .right-part > div{
+    height: ;
+} */
+
+.left-login-area, .left-register-area, .left-forgot-password-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.left-login-area{
+    background-color: #00AC43;
+}
+
+
+.left-login-area > span{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+
+
+
+.left-login-area > label{
+    position: absolute;
+    top: 50px;
+    left: 85px;
+}
+
+
+.left-register-area > span{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+
+.left-register-area > label{
+    position: absolute;
+    top: 50px;
+    left: 75px;
+}
+
+.left-forgot-password-area > span{
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+
+.left-forgot-password-area > label{
+    position: absolute;
+    top: 50px;
+    left: 45px;
+}

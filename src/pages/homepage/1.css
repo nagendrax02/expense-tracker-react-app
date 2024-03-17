@@ -1,0 +1,33 @@
+.sticky{
+    position: sticky;
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    top: 10px;
+}
+.fixed{
+    width: 400px;
+    height: 150px;
+    position: fixed;
+    background-color: blue;
+}
+
+.main{
+    height: 300px;
+    width: 250px;
+    background-color: red;
+
+    margin-left: 200px;
+    margin-top: 200px;
+    position: relative;
+    top: 700px;
+    /* top: 70px;  */
+}
+
+.child{
+    height: 200px;
+    width: 150px;
+    background-color: aqua;
+    position: absolute;
+    top: 20px;
+}
